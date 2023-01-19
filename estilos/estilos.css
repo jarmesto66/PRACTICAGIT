@@ -1,0 +1,28 @@
+*{
+    padding: 10px;
+}
+h2{
+    color: blue;
+}
+span{
+    font-style: italic; /*propiedad:valor;*/
+}
+.parr{ /*Se recomienda el selector de clase*/
+    color: red;
+}
+#parrafo{ /*Selectores id desaconsejados*/
+    background-color: black;
+    color: antiquewhite;
+}
+h2.parr{
+    background-color: black;
+    color: chartreuse;
+}
+/* h1 h2 h3 p em (contenido semántico) strong (contenido semántico) addres (fondo blanco, negrita y centrado)*/
+/**{
+    outline: 1px solid red;
+}*/
+*{
+    box-sizing: border-box; /*Se empaquetan todos los elementos en la medida widht o la que sea */
+    font-size: 16px;
+}

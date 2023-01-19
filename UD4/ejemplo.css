@@ -1,0 +1,23 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap');*/
+div{
+    font-family: 'Economica', sans-serif;
+    /*box-sizing: border-box; *//*Proporciona las medidas de la caja al ancho/alto declarado frente a content-box*/
+    width: 250px;
+    border: 10px;
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 50% 0 0 0;
+}
+.externo{
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+}
+.interno{
+    background-color: black;
+    height: 50%;
+    width: 50%;
+}
+
+/*propiedad outline guía visual para el desarrollador
+outline: 1px solid red;*/
